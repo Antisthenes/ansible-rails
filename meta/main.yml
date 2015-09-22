@@ -15,5 +15,4 @@ galaxy_info:
     - development
 
 dependencies: 
-  - role: Antisthenes.ruby
-    ruby_deploy_user: {{ user }}
+  - { role: Antisthenes.ruby, ruby_deploy_user: "{{ user }}" }
