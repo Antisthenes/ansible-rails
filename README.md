@@ -21,11 +21,11 @@ Example Playbook
 
 This is mainly used to provision vagrant virtual machines for ruby development. It looks like this: 
 
-  - hosts: all
-    roles: 
-      - role: Antisthenes.rails
-        user: vagrant
-        ruby_version: 2.2.3
+    - hosts: all
+      roles: 
+        - role: Antisthenes.rails
+          user: vagrant
+          ruby_version: 2.2.3
 
 License
 -------
