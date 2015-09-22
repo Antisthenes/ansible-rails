@@ -14,7 +14,7 @@ Role Variables
 Dependencies
 ------------
 
-- Antisthenes.rbenv
+- Antisthenes.ruby
 
 Example Playbook
 ----------------
